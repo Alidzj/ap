@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class e69 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("write a word : ");
+        String s = sc.next();
+        for (int i = s.length() ;i>0; i--){
+            System.out.print(s.charAt(i-1));
+        }
+    }
+}
